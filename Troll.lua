@@ -33,9 +33,9 @@ end
 
 local function notif(str,dur)
 	game:FindService("StarterGui"):SetCore("SendNotification", {
-		Title = "Serpente X|Kill",
+		Title = "CRACKED SALAZAR HUB",
 		Text = str,
-		Icon = "rbxassetid://10044538000",
+		Icon = "rbxassetid://2005276185",
 		Duration = dur or 3
 	})
 end
@@ -61,7 +61,7 @@ Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.174545452, 0, 0.459574461, 0)
 Main.Size = UDim2.new(0, 454, 0, 218)
-Main.Image = "rbxassetid://6949983335"
+Main.Image = "rbxassetid://17411088510"
 
 Top.Name = "Top"
 Top.Parent = Main
@@ -76,7 +76,7 @@ Title.BorderSizePixel = 0
 Title.Position = UDim2.new(0, 0, 0.295454562, 0)
 Title.Size = UDim2.new(0, 454, 0, 30)
 Title.Font = Enum.Font.SourceSans
-Title.Text = "KILL TROLL|Serpent X|1.0"
+Title.Text = "KILL | Salazar hub"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
 Title.TextSize = 14.000
@@ -88,7 +88,7 @@ TextBox.BorderSizePixel = 0
 TextBox.Position = UDim2.new(0.0704845786, 0, 0.270642221, 0)
 TextBox.Size = UDim2.new(0, 388, 0, 62)
 TextBox.Font = Enum.Font.SourceSans
-TextBox.PlaceholderText = "Name Player"
+TextBox.PlaceholderText = "Username"
 TextBox.Text = ""
 TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextBox.TextScaled = true
@@ -101,7 +101,7 @@ TextButton.BorderSizePixel = 0
 TextButton.Position = UDim2.new(0.10352423, 0, 0.596330225, 0)
 TextButton.Size = UDim2.new(0, 359, 0, 50)
 TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "KILL☑️'"
+TextButton.Text = "KILL'"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextScaled = true
 TextButton.TextSize = 14.000
@@ -113,8 +113,8 @@ TextButton.MouseButton1Click:Connect(function()
 		Target = Target[1]
 		
 		local Thrust = Instance.new('BodyThrust', lp.Character.HumanoidRootPart)
-		Thrust.Force = Vector3.new(99999,99999,99999)
-		Thrust.Name = "YeetForce"
+		Thrust.Force = Vector3.new(9999,9999,9999)
+		Thrust.Name = "SalazarForce"
 		repeat
 			lp.Character.HumanoidRootPart.CFrame = Target.Character.HumanoidRootPart.CFrame
 			Thrust.Location = Target.Character.HumanoidRootPart.Position
@@ -126,4 +126,4 @@ TextButton.MouseButton1Click:Connect(function()
 end)
 
 --//fsddfsdf
-notif("Loaded successfully!", 5)
+notif("Loaded successfully! Created by Salazar", 5)
