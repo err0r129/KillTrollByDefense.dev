@@ -113,7 +113,7 @@ TextButton.MouseButton1Click:Connect(function()
 		Target = Target[1]
 		
 		local Thrust = Instance.new('BodyThrust', lp.Character.HumanoidRootPart)
-		Thrust.Force = Vector3.new(9999,9999,9999)
+		Thrust.Force = Vector3.new(999,999,999)
 		Thrust.Name = "SalazarForce"
 		repeat
 			lp.Character.HumanoidRootPart.CFrame = Target.Character.HumanoidRootPart.CFrame
